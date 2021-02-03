@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5721848765206466624}
   - component: {fileID: 5721848765206466629}
   - component: {fileID: 5721848765206466628}
+  - component: {fileID: 3528993821188347215}
   - component: {fileID: 756497946}
   - component: {fileID: 756497947}
   m_Layer: 0
@@ -136,6 +137,20 @@ MonoBehaviour:
   target: {fileID: 0}
   chaseRange: 5
   attackRange: 1
+--- !u!114 &3528993821188347215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5721848765206466687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 213c49b5b3dd68949ad6355429879f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  damage: 40
 --- !u!114 &756497946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 72051589668b7e642aa538bc7f735ccd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
