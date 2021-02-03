@@ -1283,6 +1283,16 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 24060785}
+    - target: {fileID: 5721848765206466628, guid: 7e18d2ee5cbb4f3428281ec534d751fe,
+        type: 3}
+      propertyPath: chaseRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721848765206466629, guid: 7e18d2ee5cbb4f3428281ec534d751fe,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5721848765206466687, guid: 7e18d2ee5cbb4f3428281ec534d751fe,
         type: 3}
       propertyPath: m_Name
