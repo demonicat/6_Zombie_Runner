@@ -423,6 +423,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 53525806952230394, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: fpsCamera
+      value: 
+      objectReference: {fileID: 946597217}
+    - target: {fileID: 1649723425744029773, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 318747342}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1 &456919639
@@ -682,6 +692,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ab33e6080ae416b4d899f39fa8951b98,
     type: 3}
   m_PrefabInstance: {fileID: 1510372055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &946597217 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 414904744}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1012106251 stripped
 Transform:
